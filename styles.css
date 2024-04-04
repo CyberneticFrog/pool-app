@@ -1,0 +1,157 @@
+/* Cyber Styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  color: white; /* Default text color */
+  background-color: #31849B;
+}
+
+.round-image {
+  width: 100px; /* or the size you want */
+  height: 100px; /* this should be the same as width for a perfect circle */
+  border-radius: 50%; /* this makes it round */
+  display: block; /* for centering the image, if needed */
+  margin: auto; /* centers the image if its container is wider */
+  object-fit: cover; /* this ensures the image covers the area nicely */
+}
+
+.input-group {
+  margin-bottom: 10px;
+}
+
+.input-group input,
+.input-group select {
+  height: 40px; /* Adjust this value to match the size of your select box */
+  padding: 8px;
+  margin-top: 5px;
+  box-sizing: border-box; /* Ensures padding is included in the total height */
+}
+
+.input-group label {
+  margin-bottom: 5px;
+}
+label, input, select, button {
+  display: block;
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  font-size: 1.2em;
+}
+button {
+  background-color: #9b4831; /* Bootstrap primary button color */
+  color: white; /* Text color */
+  padding: 10px 15px; /* Padding inside the button */
+  border: none; /* Remove the default border */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Mouse pointer changes to a hand icon */
+  font-size: 2em; /* Text size inside the button */
+  transition: background-color 0.3s; /* Smooth transition for background color */
+}
+
+button:hover {
+  background-color: #94531f; /* Darker shade when mouse hovers over */
+}
+
+.instructions {
+  background-color: #1f5361;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+.safety-instructions {
+  font-size: 1.2em; /* 32px if the base size is 16px */
+  color: #f76e6e;
+  text-align: center;
+}
+.disclaimer {
+  font-size: 1.2em; /* 32px if the base size is 16px */
+  color: red;
+  font-weight: bold;
+}
+
+/* Text size classes */
+.text-small { font-size: 0.8em; }
+.text-medium { font-size: 1em; }
+.text-large { font-size: 1.2em; }
+.text-xlarge { font-size: 1.4em; }
+
+/* Text color classes */
+.text-primary { color: #2a4d69; }
+.text-secondary { color: #4b86b4; }
+.text-danger { color: #ac3b61; }
+.text-warning { color: #eec9d2; }
+.text-info { color: #d6d4e0; }
+.text-success { color: #b1cbbb; }
+
+/* Bold text */
+.text-bold { font-weight: bold; }
+
+/* Header styles */
+h1 {
+  font-size: 2em; /* 32px if the base size is 16px */
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 0.1em;
+  margin-bottom: 0.5em;
+}
+
+h2 {
+  font-size: 1.75em; /* 28px if the base size is 16px */
+  color: white;
+  font-weight: bold;
+  margin-bottom: 0.4em;
+}
+
+h3 {
+  font-size: 1.5em; /* 24px if the base size is 16px */
+  color: #70bdd2;
+  font-weight: bold;
+  margin-bottom: 0.3em;
+}
+.instructions-list {
+  list-style-type: disc; /* Default bullet points */
+  padding-left: 20px; /* Indent the list items */
+}
+
+.instructions-list li {
+  margin-bottom: 10px; /* Space between list items */
+}
+/*App Container */
+.app-container {
+  background-color: #194550; /* Dark blue color */
+  color: #ffffff; /* White text color for contrast */
+  padding: 20px;
+  border-radius: 50px;
+  margin: auto;
+  max-width: 600px; /* Or whatever maximum width you prefer */
+  border: 2px solid #ffffff; /* White border, adjust the size as needed */
+}
+
+
+/* Adjust input and button colors for better visibility */
+input, select {
+  background-color: #aad8e4; /* Lighter background for inputs */
+  color: #153842; /* Dark text for contrast */
+  border: 1px solid #cccccc; /* Light gray border */
+}
+
+.result-container {
+  background-color: #1f5361; /* Light grey background */
+  border: 1px solid #ddd; /* Light grey border */
+  padding: 5px;
+  margin-bottom: 10px; /* Space between containers */
+  border-radius: 25px; /* Rounded corners */
+}
+
+.disclaimer-container {
+  padding: 10px;
+  text-align: center;
+  margin-top: 20px; /* Space above the disclaimer */
+  background-color: #ffcccc; /* Light red background for emphasis */
+  border: 1px solid #ffaaaa; /* Slightly darker border */
+  border-radius: 25px; /* Rounded corners */
+}
+

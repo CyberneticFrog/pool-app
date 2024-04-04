@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pool Chemical Adjustment Calculator</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="app-container">
+  <img src="OPIPool (1).png" alt="OPI Pool Image" class="round-image">
+  <h1>Pool Chemical Adjustment Calculator</h1>
+
+  <div class="instructions">
+    <h2><strong>Instructions:</strong></h2>
+    <ul class="instructions-list">
+      <li>Enter the dimensions of your pool and select the measurement unit.</li>
+      <li>The calculator will indicate the volume and the required amounts of chemicals for adjustment.</li>
+      <li>Always mix chemicals with water before adding to the pool.</li>
+      <li>Ensure no bathers are present during chemical application.</li>
+    </ul>
+  </div>
+
+  <div class="safety-instructions">
+    <p><strong>Safety Note:</strong> Always undertake risk assessments and wear suitable Personal Protective Equipment when handling chemicals.</p>
+  </div>
+
+  <form id="poolForm">
+    <div class="input-group">
+      <label for="length">Pool Length:</label>
+      <input type="text" id="length" placeholder="Length in meters" required>
+    </div>
+
+    <div class="input-group">
+      <label for="width">Pool Width:</label>
+      <input type="text" id="width" placeholder="Width in meters" required>
+    </div>
+    
+    <div class="input-group">
+      <label for="minDepth">Minimum Depth:</label>
+      <input type="text" id="minDepth" placeholder="Min Depth in meters" required>
+    </div>
+
+    <div class="input-group">
+      <label for="maxDepth">Maximum Depth:</label>
+      <input type="text" id="maxDepth" placeholder="Max Depth in meters" required>
+    </div>
+
+    <div class="input-group">
+      <label for="unit">Measurement Unit:</label>
+      <select id="unit" required>
+        <option value="metric">Meters</option>
+        <option value="imperial">Feet</option>
+      </select>
+    </div>
+    
+    <button type="submit">Calculate</button>
+  </form>
+  <br>
+  <img src="cyber1.png" alt="Cyber Logo Image" class="round-image">
+  <br>
+  <div id="results">
+    <!-- Results will be displayed here -->
+  </div>
+
+</div> <!-- End of app-container -->
+
+<script src="scripts.js"></script>
+</body>
+</html>
