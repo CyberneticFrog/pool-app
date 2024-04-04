@@ -90,7 +90,7 @@ button:hover {
 
 /* Header styles */
 h1 {
-  font-size: 2em; /* 32px if the base size is 16px */
+  font-size: 1.6em; /* 32px if the base size is 16px */
   color: white;
   text-align: center;
   font-weight: bold;
